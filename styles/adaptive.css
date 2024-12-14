@@ -210,12 +210,12 @@
     .material-image-items .slick-list {
         max-width: 272px
     }
+    .material-content-text {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 425px) {
-    .advantages-items-item {
-        text-align: center;
-    }
     .advantages-items-item-icon {
         height: 50px;
         margin-bottom: 10px;
