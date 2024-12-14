@@ -1,0 +1,263 @@
+@media screen and (max-width: 1300px) {
+    .material {
+        align-items: center;
+    }
+    .material-image-items .slick-list {
+        max-width: 630px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .price {
+        background-size: unset;
+        background-position: right bottom;
+        padding-right: 230px;
+    }
+}
+
+@media screen and (max-width: 1178px) {
+    .advantages-items {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .material-image-items .slick-list {
+        max-width: 430px;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .videos-content .slick-prev {
+        left: -52px;
+    }
+
+    .videos-content .slick-next {
+        right: -52px;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .insulation-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .insulation-content-text {
+        max-width: 730px;
+        width: unset;
+    }
+    .material {
+        flex-direction: column;
+    }
+    .material-content {
+        width: unset;
+    }
+    .material-image-items .slick-list {
+        max-width: 730px
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .instructions-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .instructions-content-item {
+        width: unset;
+    }
+    .material-image-items .slick-list {
+        max-width: 530px
+    }
+}
+
+@media screen and (max-width: 778px) {
+    .advantages-items {
+        gap: 20px;
+    }
+    .advantages-items-item {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .main {
+        padding: 80px 20px;
+    }
+    .price {
+        height: 600px;
+        padding-right: 20px;
+        background-position: bottom;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .insulation-content-video {
+        width: 450px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .insulation,
+    .why,
+    .advantages,
+    .price,
+    .instructions,
+    .questions,
+    .conclusion,
+    .videos {
+        margin-bottom: 50px;
+    }
+    .main-title {
+        font-size: 30px;
+    }
+    .main-subtitle,
+    .insulation-content-text-description,
+    .why-description,
+    .price-text,
+    .material-content-text {
+        font-size: 18px;
+    }
+    .insulation-content-text-title,
+    .why-title,
+    .advantages-title,
+    .price-title,
+    .instructions-title,
+    .questions-title,
+    .conclusion-title,
+    .material-content-title,
+    .videos-title {
+        font-size: 24px;
+    }
+    .insulation-content-text-title,
+    .insulation-content-text-description,
+    .insulation-bread-crumbs,
+    .advantages-title,
+    .price-title,
+    .instructions-title,
+    .questions-title,
+    .material-content-title,
+    .videos-title {
+        margin-bottom: 20px;
+    }
+    .advantages-items-item-description {
+        font-size: 16px;
+    }
+    .instructions-content {
+        margin-bottom: 20px;
+    }
+    .instructions-content-item-title {
+        font-size: 18px;
+    }
+    .instructions-content-item-title span {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .instructions-content-item-description {
+        font-size: 16px;
+    }
+    .questions-details-summary-title {
+        font-size: 18px;
+    }
+    .questions-details-answer {
+        font-size: 16px;
+    }
+    .conclusion-content-item {
+        align-items: flex-start;
+    }
+    .material {
+        gap: 20px;
+    }
+    .material-image-items .slick-list {
+        max-width: 400px
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .insulation-content-video {
+        width: unset;
+        max-width: 300px;
+        height: 160px;
+    }
+    .insulation-content {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main {
+        padding: 40px 20px;
+    }
+    .main-title {
+        font-size: 24px;
+    }
+    .main-subtitle,
+    .why-description {
+        font-size: 16px;
+    }
+    .price-text {
+        font-size: 16px;
+    }
+    .insulation-content-text-description {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .material-image-items .slick-list {
+        max-width: 272px
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .advantages-items-item {
+        text-align: center;
+    }
+    .advantages-items-item-icon {
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .advantages-items-item-icon svg {
+        width: 50px;
+        height: 50px;
+    }
+    .questions-details-summary-icon {
+        min-width: 20px;
+        height: 20px;
+    }
+    /*.questions-details-summary-title {*/
+    /*    font-size: 15px;*/
+    /*}*/
+    /*.questions-details-answer {*/
+    /*    font-size: 14px;*/
+    /*}*/
+    .conclusion-content-item {
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .conclusion-content-item-text {
+        font-size: 16px;
+    }
+    .conclusion-content-item-icon {
+        height: 20px;
+    }
+    .conclusion-content-item-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .price {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .price {
+        background-size: 230px;
+    }
+}
