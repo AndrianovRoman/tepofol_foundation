@@ -19,6 +19,7 @@
 @media screen and (max-width: 1178px) {
     .advantages-items {
         justify-content: center;
+        flex-wrap: wrap;
     }
 }
 
